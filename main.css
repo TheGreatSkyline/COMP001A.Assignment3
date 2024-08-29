@@ -1,0 +1,73 @@
+/* Primary stylesheet for my Personal Profile */
+/*********************************************************
+* Description: Primary style sheet for Personal Profile
+* Author:      Joaquin Gomez
+*********************************************************/
+
+/* This is the css for the header */
+header{
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+nav{
+    float: none;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 75px;
+    
+}
+/* This is the css for the body */
+body {
+    background-color: lightblue;    /* This is a shade of orange. */
+}
+/* This is the css for the biography */
+.biography p{
+    margin-left: 4.5em;    
+}
+
+/* This is the css for the biography */
+.projects p{
+    margin-left: 6em;
+}
+/* This is the css for the h1 */
+h1 {
+    margin-left: 1em;
+    color: #363636;
+}
+em{
+    font-weight: bold;
+}
+/* This is the css for the h2 */
+h2 {
+    margin-left: 2em;
+    font-style: italic;
+}
+ 
+/* This is the css for the ul */
+ul {
+    
+    list-style-type: square;   /* Changes the bullets to squares */
+}
+li{
+    margin-left: 3em;
+}
+
+/* This is the css for the footer */
+footer{
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
