@@ -1,77 +1,88 @@
-/* Primary stylesheet for my Personal Profile */
 /*********************************************************
-* Description: Primary style sheet for Personal Profile
+* Description: Primary style sheet for Jobba Inc
 * Author:      Joaquin Gomez
 *********************************************************/
 
 /* This is the css for the header */
+.headercontainer{
+    width: 80%;
+    margin: 0 auto;
+}
 header{
-    background-color: #363636;
-    color: white;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
+    background-color: #55d6aa;
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 header h1{
-    color: white;
+    padding: 0px;
     text-align: center;
 }
-
+.logo{
+    float: left;
+    padding: 10px 0;
+}
 nav{
-    float: none;
+    float: right;
 }
 nav ul{
     margin: 0;
-    padding: 0;
-    list-style: none;
 }
-
 nav li{
     display: inline-block;
-    margin-left: 75px;
-    
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
 }
-/* This is the css for the body */
-body {
-    background-color: lightblue;    /* This is a shade of orange. */
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
 }
-/* This is the css for the biography */
-.biography p{
-    margin-left: 4.5em;    
+nav a:hover{
+    color: #000;
 }
-
-/* This is the css for the biography */
-.projects p{
-    margin-left: 6em;
+nav a::before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
 }
-/* This is the css for the h1 */
-h1 {
-    margin-left: 1em;
-    color: #363636;
+nav a:hover::before{
+    width: 100%;
+    transition: all ease-in-out 250ms;
 }
-em{
-    font-weight: bold;
-}
-/* This is the css for the h2 */
-h2 {
-    margin-left: 2em;
-    font-style: italic;
-}
- 
-/* This is the css for the ul */
-ul {
-    
-    list-style-type: square;   /* Changes the bullets to squares */
-}
-li{
-    margin-left: 3em;
+body{
+    background-color: #55d6aa;
+    margin: 10px;
 }
 
-/* This is the css for the footer */
+h2{
+    margin-left: 20px;
+}
+h3{
+    margin-left: 20px;
+}
+h4{
+    margin-left: 40px;
+}
+h4 img{
+    float: left;
+    padding: 0;
+}
+p{
+    margin: 50px;
+}
+address{
+    margin: 80px;
+}
 footer{
-    background-color: #363636;
-    color: white;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
+    color: white;
 }
