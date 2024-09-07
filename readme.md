@@ -1,2 +1,2 @@
 Author: Joaquin Gomez
-Purpose: This is the Module 3 Assignment: Online Store
+Purpose: This is the Module 4 Assignment: Web Developer
