@@ -52,14 +52,64 @@
     </header>
     <main>
         <section>
-            <form action="" method="post">
-                
-            </form>
-        </section>
-        <section>
             <h2>
                 Contact Us
             </h2>
+            <form action="" method="post">
+                <label for="username">
+                    Name:
+                </label>
+                <input type="text" id="username" name="username" placeholder="Enter your Username">
+                <br>
+                <!-- Label and email input field-->
+                <label for="email">
+                    Email:
+                </label>
+                <input type="email" id="email" name="email" placeholder="exmple@exmple.com">
+                <br>
+                <!-- Dropdown select for country selection-->
+                <label for="country">
+                    Subject
+                </label>
+                <select name="country" id="country">
+                    <option value="usa">
+                        USA
+                    </option>
+                    <option value="canada">
+                        Canada
+                    </option>
+                    <option value="mexico">
+                        Mexico
+                    </option>
+                    <option value="el_salvador">
+                        El Salvador
+                    </option>
+                    <option value="guatemala">
+                        Guatemala
+                    </option>
+                    <option value="cuba">
+                        Cuba
+                    </option>
+                </select>
+                <br>
+                <!-- Textarea for additional comments -->
+                <label for="comments">
+                    comments
+                </label>
+                <textarea name="comments" id="comments" rows="4" cols="50">
+                <!-- This creates the comment box-->
+                </textarea>
+                <br>
+                <!-- Hidden input field (not visible to users) -->
+                <input type="hidden" name="userId" id="userId" value="12345">
+                <br>
+                <!-- Submit button to submit the form -->
+                <input type="submit" value="submit">
+                <!-- Reset button to reset the form fields -->
+                <input type="reset" value="reset">
+            </form>
+        </section>
+        <section>
             <h4>
                 Visit
             </h4>
